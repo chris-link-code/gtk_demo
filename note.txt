@@ -34,10 +34,8 @@ https://blog.csdn.net/weixin_41708670/article/details/83926528
 pkg-config gtk+-2.0 --cflags和pkg-config gtk+-2.0 --libs
 
 cmd
-pkg-config gtk4 --cflags
-pkg-config gtk4 --libs
-
-
+pkg-config --cflags gtk4
+pkg-config --libs gtk4
 
 -- Checking for module 'gtk4'
 -- Found gtk4, version 4.8.2
