@@ -41,3 +41,19 @@ pkg-config --libs gtk4
 -- Found gtk4, version 4.8.2
 -- Configuring done
 -- Generating don
+
+https://www.gtk.org/docs/getting-started/hello-world/
+https://developer-old.gnome.org/gtk3/stable/GtkWindow.html
+https://docs.gtk.org/gtk4/getting_started.html
+https://www.cnblogs.com/libra13179/p/12531758.html
+https://blog.csdn.net/Rong_Toa/article/details/85856499
+https://zhuanlan.zhihu.com/p/130430726
+
+
+https://cmake.org/cmake/help/latest/module/FindGTK.html
+https://discourse.gnome.org/t/pkg-config-libs-gtk-3-0-problem/3288/11
+https://bbs.archlinux.org/viewtopic.php?id=129298
+
+
+https://blog.csdn.net/weixin_33898876/article/details/93154353
+https://www.cnblogs.com/QuLory/archive/2013/01/13/2859036.html
