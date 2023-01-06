@@ -1,0 +1,45 @@
+
+pacman -S mingw-w64-x86_64-gtk4
+
+pacman -S mingw-w64-x86_64-toolchain base-devel
+
+
+C:\File\program\msys2\mingw64
+
+设置系统环境变量
+
+设置Path（如果为32为则将32改为64）
+
+新建MINGW_HOME
+
+{安装目录}\msys2\mingw64
+
+新建C_INCLUDE_PATH
+
+%MINGW_HOME%\include
+
+新建LIBRARY_PATH
+
+%MINGW_HOME%\lib
+
+变量Path中添加如下值
+
+%MINGW_HOME%\bin
+
+https://blog.csdn.net/weixin_41708670/article/details/83926528
+
+
+
+
+pkg-config gtk+-2.0 --cflags和pkg-config gtk+-2.0 --libs
+
+cmd
+pkg-config gtk4 --cflags
+pkg-config gtk4 --libs
+
+
+
+-- Checking for module 'gtk4'
+-- Found gtk4, version 4.8.2
+-- Configuring done
+-- Generating don
