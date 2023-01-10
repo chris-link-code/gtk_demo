@@ -16,7 +16,7 @@ link_directories(${GTK4_LIBRARY_DIRS})
 
 add_executable(gtk_demo main.c)
 
-target_link_libraries(gtk_demo ${GTK_LIBRARIES})
+target_link_libraries(gtk_demo ${GTK4_LIBRARIES})
 
 # Find GTK, glib and GTKGLArea
 # GTK_INCLUDE_DIR   - Directories to include to use GTK
@@ -24,17 +24,17 @@ target_link_libraries(gtk_demo ${GTK_LIBRARIES})
 # GTK_FOUND         - GTK was found
 # GTK_GL_FOUND      - GTK's GL features were found
 
-IF (GTK_FOUND)
-    message(${GTK_FOUND})
-ELSE (GTK_FOUND)
+IF (GTK4_FOUND)
+    message(${GTK4_FOUND})
+ELSE ()
     message("not find gtk")
-ENDIF (GTK_FOUND)
+ENDIF ()
 
 # 打印变量
-#message(${GTK_FOUND})
+message(${GTK4_FOUND})
 message(${GTK4_INCLUDE_DIRS})
 message(${GTK4_LIBRARY_DIRS})
-#message(${GTK_LIBRARIES})
+message(${GTK4_LIBRARIES})
 
 # 打印当前操作系统类型
 message(${CMAKE_SYSTEM_NAME})
