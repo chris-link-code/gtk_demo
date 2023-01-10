@@ -24,6 +24,12 @@ target_link_libraries(gtk_demo ${GTK_LIBRARIES})
 # GTK_FOUND         - GTK was found
 # GTK_GL_FOUND      - GTK's GL features were found
 
+IF (GTK_FOUND)
+    message(${GTK_FOUND})
+ELSE (GTK_FOUND)
+    message("not find gtk")
+ENDIF (GTK_FOUND)
+
 # 打印变量
 #message(${GTK_FOUND})
 message(${GTK4_INCLUDE_DIRS})
