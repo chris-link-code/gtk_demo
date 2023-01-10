@@ -35,3 +35,6 @@ ENDIF (GTK_FOUND)
 message(${GTK4_INCLUDE_DIRS})
 message(${GTK4_LIBRARY_DIRS})
 #message(${GTK_LIBRARIES})
+
+# 打印当前操作系统类型
+message(${CMAKE_SYSTEM_NAME})
