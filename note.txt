@@ -42,6 +42,7 @@ pkg-config --libs gtk4
 -- Configuring done
 -- Generating don
 
+https://gitlab.gnome.org/GNOME/gtk
 https://www.gtk.org/docs/getting-started/hello-world/
 https://developer-old.gnome.org/gtk3/stable/GtkWindow.html
 https://docs.gtk.org/gtk4/getting_started.html
