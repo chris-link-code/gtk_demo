@@ -41,6 +41,7 @@ message(${GTK4_FOUND})
 message(${GTK4_INCLUDE_DIRS})
 message(${GTK4_LIBRARY_DIRS})
 message(${GTK4_LIBRARIES})
+message(${GTK4_VERSION})
 
 # 打印当前操作系统类型
 message(${CMAKE_SYSTEM_NAME})
