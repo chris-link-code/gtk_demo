@@ -22,7 +22,7 @@ add_executable(gtk_demo main.c)
 target_link_libraries(gtk_demo ${GTK4_LIBRARIES})
 
 # 隐藏控制台黑窗口
-set(CMAKE_C_FLAGS ${CMAKE_C_FLAGS} -mwindows)
+#set(CMAKE_C_FLAGS ${CMAKE_C_FLAGS} -mwindows)
 
 # Find GTK, glib and GTKGLArea
 # GTK_INCLUDE_DIR   - Directories to include to use GTK
